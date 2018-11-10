@@ -15,7 +15,7 @@ For hands-on or self-paced training, students should have working knowledge of u
 
 License
 -------
-All other parts of this material are made available under the terms of the [MIT License](LICENSE).
+All parts of this material are made available under the terms of the [MIT License](LICENSE).
 
 Author Information
 ------------------
