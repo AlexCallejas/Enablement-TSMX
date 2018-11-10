@@ -1,0 +1,8 @@
+# In this file you put the variable of the password for the subscription
+# register  of the servers
+
+# Use
+# password: [satellite password]
+
+# An then, encrypt with ansible-vault
+# $ ansible-vault encrypt vars/vars.yml

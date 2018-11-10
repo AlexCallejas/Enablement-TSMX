@@ -1,0 +1,12 @@
+---
+- name: Set IPv4
+  hosts: all
+  tasks:
+    - name: Set IP on eth0
+      nmcli:
+        conn_name: my-eth0
+        ifname: eth0
+        type: ethernet
+        ip4: [Your IP address]
+        gw4: [Your GW address]
+        state: present

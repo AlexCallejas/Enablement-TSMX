@@ -1,0 +1,10 @@
+---
+- name: Set hostname
+  hosts: servers
+  tasks:
+
+    - name: Add Satellite host
+      lineinfile:
+        path: /etc/hosts
+        line: '[Your Satellite IP address and hostname]'
+        state: present
